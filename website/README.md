@@ -65,7 +65,24 @@ what credentials are needed - DockerHub credentials (do not state your credentia
 
 set secrets and secret names
 
+Create .github folder
+Create workflows folder inside .github and set the secrete in 
+or
+Go on GitHub.com
+Navigate to the main page of the repository. 
+under the repository name, click Actions. 
+If you already have a workflow in your repository 
+click New workflow and use the template that you want to use, 
+then click start commit 
 
 Configure GitHub Workflow
 variables to change (repository, etc.)
+
+- Navigate to the workflow
+- Click Review deployments
+- Select the job environment(s) to approve or reject. Optionally, leave a comment
+- Approve or reject
+- To approve the job, click Approve and deploy
+- To reject the job, click Reject. If a job is rejected, the workflow will fail.
+
 
