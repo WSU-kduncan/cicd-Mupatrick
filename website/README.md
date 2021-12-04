@@ -58,10 +58,12 @@ Allow DockerHub authentication via CLI using Dockhub credentials
 Configure GitHub Secrets
 
 what credentials are needed - DockerHub credentials (do not state your credentials)
-Username
 
+
+- Username
 - Password or token as alternative
-- set secrets and secret names
+
+set secrets and secret names
 
 
 Configure GitHub Workflow
