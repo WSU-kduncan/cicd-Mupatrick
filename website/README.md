@@ -29,3 +29,32 @@ how to run the container
 how to view the project (open a browser...go to ip and port...)
 docker ps -a
 
+
+Part 2 - GitHub Actions and DockerHub
+Milestone Participation due 12/3
+Documentation
+Update README.md in main folder of your repo to include:
+Create DockerHub public repo
+process to create
+After sign in or  create account if you don’t have one by using this link https://hub.docker.com/
+Click on create repository 
+Fill out the docker detail “name and description if you want to) 
+Under visibility select public then click create
+
+Allow DockerHub authentication via CLI using Dockhub credentials
+Log in to hub.docker.com.
+Click on your username in the top right corner and select Account Settings.
+Select Security > New Access Token.
+Add a description for your token. 
+Then set up the access permission from drop down 
+
+Configure GitHub Secrets
+what credentials are needed - DockerHub credentials (do not state your credentials)
+Username
+Password or token as alternative
+set secrets and secret names
+
+
+Configure GitHub Workflow
+variables to change (repository, etc.)
+
