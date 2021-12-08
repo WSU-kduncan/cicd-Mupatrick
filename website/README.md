@@ -47,6 +47,11 @@ Create DockerHub public repo
 - Fill out the docker detail “name and description if you want to) 
 - Under visibility select public then click create
 
+  Prove
+
+![docker hub](https://user-images.githubusercontent.com/77375881/144696354-86986300-3697-4abd-a63a-bb5d04c434e0.jpeg)
+
+
 Allow DockerHub authentication via CLI using Dockhub credentials
 
 - Log in to hub.docker.com.
@@ -54,6 +59,14 @@ Allow DockerHub authentication via CLI using Dockhub credentials
 - Select Security > New Access Token.
 - Add a description for your token. 
 - Then set up the access permission from drop down 
+
+   Prove
+
+
+![Q Search by repository name](https://user-images.githubusercontent.com/77375881/144696435-e6a81a3e-aa36-4bbb-a58f-67cefe2b30cb.jpeg)
+
+
+
 
 Configure GitHub Secrets
 
