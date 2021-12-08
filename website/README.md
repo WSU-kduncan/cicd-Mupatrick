@@ -99,3 +99,19 @@ variables to change (repository, etc.)
 - To reject the job, click Reject. If a job is rejected, the workflow will fail.
 
 
+Part 3 - Deployment
+
+Pulling the image
+sudo docker pull mupatrick/myfirstdocker:latest
+
+![RllebServ1 $ sudo docker pull mupatrickmyfirsdockerlat](https://user-images.githubusercontent.com/77375881/145256079-5a09ecea-50d6-4305-9de1-2e6caa1c6e70.jpeg)
+
+Running the container
+sudo docker run -dit -p 8080:80 mupatrick/myfirstdocker
+
+![homeubuntu](https://user-images.githubusercontent.com/77375881/145256140-45fc04f2-3503-45db-b14e-a0810fcd02bc.jpeg)
+
+
+![sudo docker ps](https://user-images.githubusercontent.com/77375881/145256160-88ba9527-885c-4b16-85bb-f68aaf50ac3c.jpeg)
+
+
